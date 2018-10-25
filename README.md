@@ -13,5 +13,8 @@ Add easily manageable FAQ on your shopify store.
 2. From the theme preview section Navigate to faq page and on the sections field you will see faq manageable section.
 3. Add Question and answer.
 
+# Support & customization
+write me here http://sumankc.com/contact/
+
 # Preview
 ![preview image faq app](preview.JPG?raw=true "Preview")
