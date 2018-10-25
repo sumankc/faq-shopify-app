@@ -9,6 +9,30 @@
   <!--/ By dfeault the answers are hidden and jquery used below will toggle on click-->
 <style type="text/css">
   .faq-answer{display:none;}
+  .faq-question {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 12px;
+    background: #ececec;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    cursor: pointer;
+}.faq-question span {
+    display: inline-block;
+    float: right;
+    height: 25px;
+    width: 25px;
+    background: #bdbdbd;
+    text-align: center;
+    border-radius: 50%;
+    text-align: center;
+    color: white;
+}.faq-answer {
+    background: white;
+    padding: 20px 30px 30px;
+    box-shadow: 5px 5px 65px #e7e7e7;
+    margin-bottom: 25px;
+}
 </style>
 <div class="page-width" data-section-id="{{ section.id }}">
   {% if section.blocks.size > 0 %}
